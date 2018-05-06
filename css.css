@@ -1,16 +1,23 @@
-body{letter-spacing:-0.75px;}
-.infopart{
-    font-weight: bolder;
+.backbutton{
+    font-size: 2vw;
 }
-.largecube {
+.topicon{
     text-align: center;
-    overflow: hidden;
+    font-size: 8vw;
+
 }
-.largecube>div {
-    width: 31%;
-    padding-bottom: 31%;
-    margin: 0.75%;
-    border-radius: 10%;
+.description{
+    text-align: center;
+    font-size: 4vw;
+}
+.bottomicon{
+    position: relative;
+    bottom: 1vw;
+    font-size: 2vw;
+
+}
+.bottomicon>div{
     float: left;
-    background-color: darkorange;
+    background: aqua;
+    position: relative;
 }
