@@ -1,23 +1,42 @@
+img {
+    width: 25vw;
+    height: auto;
+}
 .backbutton{
     font-size: 2vw;
 }
 .topicon{
     text-align: center;
     font-size: 8vw;
-
 }
 .description{
     text-align: center;
-    font-size: 4vw;
+    font-size: 2.5vw;
+    padding-left: 15%;
+    padding-right: 15%;
+    letter-spacing: 0.75vw;
+    line-height: 4.5vw;
 }
 .bottomicon{
     position: relative;
     bottom: 1vw;
-    font-size: 2vw;
-
+    left: 32.5vw;
+}
+.bottomicon1> p{
+    font-size: 1vw;
 }
 .bottomicon>div{
-    float: left;
-    background: aqua;
+
+}
+.bottomicon2> img{
+    background: #009e96;
+    border-radius: 100px;
+}
+.bottomicon2> p{
+    font-size: 1vw;
+}
+.bottowords {
     position: relative;
+    bottom: 1vw;
+    left: 27.5vw;
 }
