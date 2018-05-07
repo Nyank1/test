@@ -1,42 +1,51 @@
-img {
-    width: 25vw;
+.backbutton> img{
+    width: 30px;
     height: auto;
-}
-.backbutton{
-    font-size: 2vw;
+    margin-bottom: 50px;
 }
 .topicon{
     text-align: center;
-    font-size: 8vw;
+    width: 100%;
+    height: auto;
+    margin-bottom: 85px;
+}
+.topicon> img{
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
 }
 .description{
-    text-align: center;
-    font-size: 2.5vw;
+    text-align: justify;
+    font-size: 14px;
     padding-left: 15%;
     padding-right: 15%;
-    letter-spacing: 0.75vw;
-    line-height: 4.5vw;
+    line-height: 20px;
+    margin-bottom: 85px;
 }
-.bottomicon{
+.icon> img{
+    width: 50px;
+    height: auto;
+}
+.icon{
     position: relative;
-    bottom: 1vw;
-    left: 32.5vw;
+    padding-left: 15%;
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    float: left;
 }
-.bottomicon1> p{
-    font-size: 1vw;
+.iconb> img{
+    width: 50px;
+    height: auto;
 }
-.bottomicon>div{
-
-}
-.bottomicon2> img{
-    background: #009e96;
-    border-radius: 100px;
-}
-.bottomicon2> p{
-    font-size: 1vw;
-}
-.bottowords {
+.iconb{
     position: relative;
-    bottom: 1vw;
-    left: 27.5vw;
+    padding-right: 15%;
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    float: right;
+}
+.iconline{
+    font-size: 12px;
 }
