@@ -1,51 +1,110 @@
-.backbutton> img{
-    width: 30px;
-    height: auto;
-    margin-bottom: 50px;
+body{
+    background: #eff0f4;
 }
-.topicon{
-    text-align: center;
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 88px;
     width: 100%;
-    height: auto;
-    margin-bottom: 85px;
+    background: #5fc0cd;
 }
-.topicon> img{
-    width: 100px;
-    height: auto;
-    margin: 0 auto;
-}
-.description{
-    text-align: justify;
-    font-size: 14px;
-    padding-left: 15%;
-    padding-right: 15%;
-    line-height: 20px;
-    margin-bottom: 85px;
-}
-.icon> img{
-    width: 50px;
-    height: auto;
-}
-.icon{
+header>div, p{
+    font-size: 32px;
+    font-family: 'Microsoft Yahei', sans-serif;
     position: relative;
-    padding-left: 15%;
-    width: 50px;
+    top: 22px;
+    margin: 0;
+    width: 75px;
     height: auto;
-    display: inline-block;
+    text-align: right;
+}
+.exit{
     float: left;
+    text-align: left;
+    left: 43px;
 }
-.iconb> img{
-    width: 50px;
-    height: auto;
-}
-.iconb{
-    position: relative;
-    padding-right: 15%;
-    width: 50px;
-    height: auto;
-    display: inline-block;
+.register{
     float: right;
+    right: 43px;
 }
-.iconline{
-    font-size: 12px;
+.login{
+    margin-left: auto;
+    margin-right: auto;
+}
+.itel{
+    position: absolute;
+    top: 105px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+}
+.itel>img {
+    display: inline-block;
+}
+.tel{
+    position: absolute;
+    left: 152px;
+    top: 29.5px;
+}
+input{
+    border: none;
+    width: 45vw;
+    height: 46.5px;
+    font-size: 25px;
+    margin-top: -2px;
+    outline: none;
+    box-shadow: none;
+}
+.bicon{
+    position: absolute;
+    left: 43px;
+    top: 29.5px;
+}
+.rect{
+    position: absolute;
+    left: 115px;
+    top: 24px;
+}
+::placeholder{color: #eaedee;}
+.password{
+    position: absolute;
+    top: 219px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+}
+.loginbuttom{
+    position: absolute;
+    top: 325px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+}
+.blogin{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    border: none;
+    width: 100%;
+    height: 75px;
+    font-size: 25px;
+    margin-top: -2px;
+    outline: none;
+    box-shadow: none;
+    background: #5fc0cd;
+    color: #ffffff;
+}
+.forget{
+    float: right;
+    right: 15px;
+    position: relative;
+    top: 450px;
+    color: #5fc0cd;
 }
